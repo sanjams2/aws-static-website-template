@@ -54,6 +54,13 @@ ACM documentation on this can be found [here](https://docs.aws.amazon.com/acm/la
 It is important to note that your CloudFormation template will sit in a pending state until you perform the DNS ownership verification. 
 
 
+### Local Testing
+
+To view your website locally: 
+```bash
+make local
+```
+
 ### Updating Your Site
 
 To update your site, simply run:
