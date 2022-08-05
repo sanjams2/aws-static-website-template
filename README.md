@@ -42,7 +42,7 @@ make cfn-create
 
 This will create the necessary infrastructure needed to host a static website via an AWS CloudFormation template.
 
-#### Certificate Issueance
+#### Certificate Issuance
 
 The CloudFormation Template will create an certificate for enabling https traffic to your website. 
 To do this, a certificate is created using Amazon Certificate Manager (ACM). Before ACM will issue you a certificate
